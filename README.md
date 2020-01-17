@@ -50,7 +50,7 @@ These criteria are:
 ### Deprecating subprojects
 
 Sometimes, project may cease to be useful, or their maintainers may leave.
-We do not want to hold on forever to committing to maintain every project that has every been created here.
+We do not want to commit to maintaining every project that has ever been added here forever.
 To request removal of a subproject, use the "Remove Project Request" issue template in this repository.
 
 To resolve the created ticket, a PR must be merged by a working group admin, which edits the "Subprojects" section of this document.
