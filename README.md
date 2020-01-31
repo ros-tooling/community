@@ -1,6 +1,6 @@
 # ROS 2 Tooling Working Group
 
-The Tooling Working Group's mission is to provide ROS2 users with simple, robust and easy to use tools for recording, debugging, visualization and introspection.
+The Tooling Working Group's mission is to provide ROS 2 users with simple, robust and easy to use tools for recording, debugging, visualization and introspection.
 
 This document defines the scope and governance of the ROS 2 Tooling Working Group.
 
@@ -38,8 +38,8 @@ The PR will be merged on a 1/2 vote (see "Voting")
 When adopting a subproject, the WG agrees that a specific set of criteria will be maintained by the WG.
 
 These criteria are:
-* Build passes against ROS2 master
-* The ROS2 standard linter set is enabled and adhered to
+* Build passes against ROS 2 master
+* The ROS 2 standard linter set is enabled and adhered to
 * Builds have 0 warnings
 * Quality builds are green (address sanitizer, thread sanitizer, clang thread safety analysis)
 * Test suite passes
@@ -59,7 +59,7 @@ The PR will be merged on a 2/3 vote (see "Voting")
 
 ## Scope
 
-WG Tooling’s mission is to provide ROS2 users with simple, robust and easy to use tools for recording, debugging, visualization and introspection purposes.
+WG Tooling’s mission is to provide ROS 2 users with simple, robust and easy to use tools for recording, debugging, visualization and introspection purposes.
 
 ### In scope
 
@@ -69,7 +69,7 @@ WG Tooling’s mission is to provide ROS2 users with simple, robust and easy to 
 
 * Middleware/communications
 
-## Membersip, Roles and Organization Management
+## Membership, Roles and Organization Management
 
 The roles of the WG are reflected in its Teams
 
@@ -95,7 +95,7 @@ To become a member or change role, use the "Organization Membership Request" iss
 ## Modifying this governance document
 
 Changes to this document will be made via Pull Request.
-THe PR will be merged on a 1/2 vote (see "Voting")
+The PR will be merged on a 1/2 vote (see "Voting")
 
 ## Voting
 
