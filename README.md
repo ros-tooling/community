@@ -28,6 +28,13 @@ The following subprojects are owned by Tooling WG:
     * @Karsten1987
   * Repositories
     * https://github.com/ros2/rosbag2
+* System Metrics Collector
+  * Description: a set of composable nodes that collect a set of host system metrics and publish them to the ROS system for analysis
+  * Owners
+    * @dabonnie
+    * @mm318
+  * Repositories
+    * https://github.com/ros-tooling/system_metrics_collector.git
 
 ### Adding new subprojects
 
