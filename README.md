@@ -22,6 +22,12 @@ The following subprojects are owned by Tooling WG:
     * @prajakta-gokhale
   * Repositories
     * https://github.com/ros-tooling/cross_compile
+* rosbag2
+  * Description: A tool to record and play back ROS2 communications
+  * Owners
+    * @Karsten1987
+  * Repositories
+    * https://github.com/ros2/rosbag2
 
 ### Adding new subprojects
 
