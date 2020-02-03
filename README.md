@@ -15,9 +15,6 @@ This document defines the scope and governance of the ROS 2 Tooling Working Grou
 ## Subprojects
 
 The following subprojects are owned by Tooling WG:
-* this list is empty pending tickets adding each project that we currently maintain
-
-Use this template for adding projects:
 * ros-cross-compile
   * Description: A tool to build ROS/ROS2 workspaces for various target platforms.
   * Owners
