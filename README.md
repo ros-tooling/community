@@ -35,6 +35,17 @@ The following subprojects are owned by Tooling WG:
     * @mm318
   * Repositories
     * https://github.com/ros-tooling/system_metrics_collector.git
+* Github CI Actions
+  * Description: A set of Github Actions for ROS/ROS2 packages and tooling that automatically test Pull Requests
+  * Owners
+    * @thomas-moulard
+  * Repositories
+    * https://github.com/ros-tooling/action-ros-ci
+    * https://github.com/ros-tooling/action-ros-ci-template
+    * https://github.com/ros-tooling/action-ros-lint
+    * https://github.com/ros-tooling/setup-ros
+    * https://github.com/ros-tooling/action-amazon-chime
+    * https://github.com/ros-tooling/action-pypi
 
 ### Adding new subprojects
 
