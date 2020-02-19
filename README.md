@@ -48,6 +48,12 @@ The following subprojects are owned by Tooling WG:
     * https://github.com/ros-tooling/setup-ros
     * https://github.com/ros-tooling/action-amazon-chime
     * https://github.com/ros-tooling/action-pypi
+* launch_ros_sandbox
+  * Description: A ROS 2 `launch` extension that starts Nodes in their own containers
+  * Owners
+    * Zachary Michaels @zmichaels11
+  * Repositories
+    * https://github.com/ros-tooling/launch_ros_sandbox
 
 
 ### Adding new subprojects
