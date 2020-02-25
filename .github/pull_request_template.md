@@ -1,8 +1,9 @@
 # Working Group Modification Pull Request
 
-This template should be used for all contributions to this Working Group (projects or charter).
-For membership changes (except Subproject Owner, see Modify Project below), please open an issue instead using the appropriate issue template.
-Choose the relevant section for this pull request below, and delete the rest.
+Use this template for all contributions to Projects or Governance of this Working Group.
+For membership changes (except Subproject Owner, use Modify Project below), please instead open an issue using the appropriate issue template.
+
+Use the relevant following section and delete the rest, as well as this introduction, for this Pull Request's content.
 
 # Add Project
 
@@ -40,4 +41,4 @@ In your changes, you have removed the relevant Subproject list item.
 # Modify Governance Model
 
 In your changes, you have modified `README.md` with the proposed governance model update.
-If extra context is needed to understand the change, note it here.
+Explain the reasoning around the change here.
