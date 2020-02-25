@@ -1,11 +1,3 @@
----
-name: Add Project Request
-about: Request addition of subproject to ros2-tooling WG
-title: 'REQUEST: Add project <NAME>'
-labels: new-project
-assignees: ''
----
-
 ### Description
 - What is this tool?
 - Motivation for putting under WG umbrella.
