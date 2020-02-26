@@ -29,14 +29,14 @@ In your changes, you have added a list item to "Subprojects" in `README.md`, fol
 * What modification is being made to a Working Group Subproject?
 * Why?
 
-In your Pull Request, you have modified the relevant section.
+In your changes, you have modified the relevant "Subprojects" section list item in `README.md`.
 
 # Deprecate Project
 
 * Which Subproject are we removing from the scope of the Working Group?
 * Why?
 
-In your changes, you have removed the relevant Subproject list item.
+In your changes, you have removed the relevant "Subprojects" section list item in `README.md`.
 
 # Modify Governance Model
 
