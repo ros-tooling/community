@@ -58,11 +58,9 @@ The following subprojects are owned by Tooling WG:
 
 ### Adding new subprojects
 
-To request introduction of a new subproject, use the "Add Project Request" issue template in this repository.
+To request introduction of a new subproject, add a list item to the "Subprojects" section and open a Pull Request to this repository, using the default Pull Request Template to populate the text of the PR.
 
-To resolve the created ticket, a PR must be merged by a working group admin, which edits the "Subprojects" section of this document.
-The PR will be merged on WG approval.
-
+At the next meeting, the PR will be reviewed, and merged on WG approval.
 
 ### Standards for subprojects
 
@@ -78,17 +76,22 @@ These criteria are:
 * Issues are responded to promptly
 * Releases go out regularly when bugfixes or new features are introduced
 
+### Subproject changes
+
+Modify the relevant list item in the "Subprojects" section and open a Pull Request to this repository, following instructions in the Pull Request Template to populate the text of the PR.
+
+At the next WG meeting, the PR will be reviewed, and merged on WG approval.
 
 ### Deprecating subprojects
 
 Sometimes, project may cease to be useful, or their maintainers may leave.
 We do not want to commit to maintaining every project that has ever been added here forever.
-To request removal of a subproject, use the "Remove Project Request" issue template in this repository.
 
-To resolve the created ticket, a PR must be merged by a working group admin, which edits the "Subprojects" section of this document.
-Additionally, if the repository lives in the `ros-tooling` organization, it will be transferred or deleted out of the organization.
-The PR will be merged on WG approval.
+To request removal of a subproject, remove the relevant list item in the "Subprojects" section and open a Pull Request in this repository, following instructions in the Pull Request Template to populate the text of the PR.
 
+At the next WG meeting, the PR will be reviewed, and merged on WG approval.
+
+If the repositories of the subproject are in the `ros-tooling` organization, they will be transferred out of the organization or deleted at this time.
 
 ## Scope
 
