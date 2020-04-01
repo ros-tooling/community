@@ -5,15 +5,6 @@ The Tooling Working Group's mission is to provide ROS 2 users with simple, robus
 This document defines the scope and governance of the ROS 2 Tooling Working Group.
 
 
-## Meetings
-
-* Regular WG Meeting: Every other Friday at 9:00 AM Pacific Time (biweekly)
-  * The meeting reminder will be posted on discourse.ros.org in the week leading up to the meeting
-  * After the meeting we will post:
-    * Video recording
-    * Notes from the meeting
-
-
 ## Subprojects
 
 The following subprojects are owned by Tooling WG:
@@ -108,7 +99,33 @@ WG Tooling’s mission is to provide ROS 2 users with simple, robust and easy to
 * Middleware/communications
 
 
-## Membership, Roles and Organization Management
+## Governance
+
+### Meetings
+
+* Regular WG Meeting: Every other Friday at 9:00 AM Pacific Time (biweekly)
+  * The meeting reminder will be posted on discourse.ros.org in the week leading up to the meeting
+  * After the meeting we will post:
+    * Video recording
+    * Notes from the meeting
+
+
+### Communication Channels
+
+The WG hosts a Matrix channel for text based chat at https://matrix.to/#/!IQcVAivBdnSuEniBZa:matrix.org?via=matrix.org
+
+Some users use the Riot clients to connect to this chat room.
+
+
+### Backlog Management
+
+The WG backlog is tracked on a [ZenHub](https://www.zenhub.com/) board.
+ZenHub connects to GitHub to add extra metadata to issues for more detailed project management than GitHub projects provide.
+* The ZenHub board can be viewed in GitHub by [installing its browser extension](https://www.zenhub.com/extension) - [Board on GitHub](https://github.com/ros-tooling/community#zenhub).
+* Members who do not wish to install a browser extension can [view the board directly on ZenHub](https://app.zenhub.com/workspaces/ros-2-tooling-working-group-5dc4f36af1b75b0001fb7c8d/board)
+
+
+### Membership, Roles and Organization Management
 
 Working Group members may act in one or more of the following roles:
 
