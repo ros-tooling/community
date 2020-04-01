@@ -5,42 +5,28 @@ The Tooling Working Group's mission is to provide ROS 2 users with simple, robus
 This document defines the scope and governance of the ROS 2 Tooling Working Group.
 
 
-## Meetings
-
-* Regular WG Meeting: Every other Friday at 9:00 AM Pacific Time (biweekly)
-  * The meeting reminder will be posted on discourse.ros.org in the week leading up to the meeting
-  * After the meeting we will post:
-    * Video recording
-    * Notes from the meeting
-
-
 ## Subprojects
+
+This Working Group owns and maintains the following Subprojects.
+Its meetings and membership are largely focused on the direction, design, and work on the projects.
+
+### Subproject list
 
 The following subprojects are owned by Tooling WG:
 * ros-cross-compile
   * Description: A tool to build ROS/ROS2 workspaces for various target platforms.
-  * Owners
-    * @emersonknapp
-    * @prajakta-gokhale
   * Repositories
     * https://github.com/ros-tooling/cross_compile
 * rosbag2
   * Description: A tool to record and play back ROS2 communications
-  * Owners
-    * @Karsten1987
   * Repositories
     * https://github.com/ros2/rosbag2
 * System Metrics Collector
   * Description: a set of composable nodes that collect a set of host system metrics and publish them to the ROS system for analysis
-  * Owners
-    * @dabonnie
-    * @mm318
   * Repositories
     * https://github.com/ros-tooling/system_metrics_collector.git
 * Github CI Actions
   * Description: A set of Github Actions for ROS/ROS2 packages and tooling that automatically test Pull Requests
-  * Owners
-    * @thomas-moulard
   * Repositories
     * https://github.com/ros-tooling/action-ros-ci
     * https://github.com/ros-tooling/action-ros-ci-template
@@ -50,8 +36,6 @@ The following subprojects are owned by Tooling WG:
     * https://github.com/ros-tooling/action-pypi
 * launch_ros_sandbox
   * Description: A ROS 2 `launch` extension that starts Nodes in their own containers
-  * Owners
-    * Zachary Michaels @zmichaels11
   * Repositories
     * https://github.com/ros-tooling/launch_ros_sandbox
 
@@ -60,7 +44,7 @@ The following subprojects are owned by Tooling WG:
 
 To request introduction of a new subproject, add a list item to the "Subprojects" section and open a Pull Request to this repository, using the default Pull Request Template to populate the text of the PR.
 
-At the next meeting, the PR will be reviewed, and merged on WG approval.
+PR will be merged on unanimous approval from Approvers.
 
 ### Standards for subprojects
 
@@ -80,7 +64,7 @@ These criteria are:
 
 Modify the relevant list item in the "Subprojects" section and open a Pull Request to this repository, following instructions in the Pull Request Template to populate the text of the PR.
 
-At the next WG meeting, the PR will be reviewed, and merged on WG approval.
+PR will be merged on unanimous approval from Approvers.
 
 ### Deprecating subprojects
 
@@ -89,26 +73,22 @@ We do not want to commit to maintaining every project that has ever been added h
 
 To request removal of a subproject, remove the relevant list item in the "Subprojects" section and open a Pull Request in this repository, following instructions in the Pull Request Template to populate the text of the PR.
 
-At the next WG meeting, the PR will be reviewed, and merged on WG approval.
+PR will be merged on unanimous approval from Approvers.
 
 If the repositories of the subproject are in the `ros-tooling` organization, they will be transferred out of the organization or deleted at this time.
 
-## Scope
 
-WG Tooling’s mission is to provide ROS 2 users with simple, robust and easy to use tools for recording, debugging, visualization and introspection purposes.
+## Governance
 
+### Meetings
 
-### In scope
+* Regular WG Meeting: Every other Friday at 9:00 AM Pacific Time (biweekly)
+  * The meeting reminder will be posted on discourse.ros.org in the week leading up to the meeting
+  * After the meeting we will post:
+    * Video recording
+    * Notes from the meeting
 
-* Subprojects owned by the WG
-
-
-### Out of scope
-
-* Middleware/communications
-
-
-## Membership, Roles and Organization Management
+### Membership, Roles and Organization Management
 
 Working Group members may act in one or more of the following roles:
 
@@ -117,36 +97,25 @@ Working Group members may act in one or more of the following roles:
   * Responsible for triaging issues
 * **Reviewer**
   * All reviewers are members
+  * Prerequisite: Proven track record of high-quality reviews to WG subprojects
   * Responsible for reviewing pull requests
 * **Approver**
   * All approvers are reviewers
+  * Prerequisite: Proven track record of high-quality contributions and reviews to WG Subprojects
   * Responsible for approving and merging pull requests
   * Responsible for vetting and accepting new projects into the Working Group
-* **Subproject Owner**
-  * Admin for repositories for their subproject
-  * Responsible for backlog maintenance and high level direction for their subproject
 * **Lead**
-  * Leader of the working group
-  * Responsible for reviewing membership applications
+  * TSC member or their delegate
+  * Responsible for organizing and moderating working group meetings
+  * Responsible for posting meeting materials (minutes, recordings, etc.)
   * Responsible for breaking ties
 
 To become a member or change role, use the "Organization Membership Request" issue template on this repository.
-* **Member** will be granted automatically on request
-* **Reviewer** will be granted with approval of Subproject Owner for the relevant project
-* **Approver** will be granted with approval of Subproject Owner for the relevant project
-* **Subproject Owner** requests will be granted on adding a subproject (see "Adding New Subprojects")
-  * Transfer of ownership of a subproject will be granted on approval of the existing Subproject Owner, it uses the same membership issue template.
+Such applications are accepted upon unanimous agreement from Approvers, and are typically based on the applicant's history with the subprojects of the Working Group.
+The Lead role cannot be applied for, as it is an appointee of the ROS 2 TSC.
 
 
-## WG Approval / Voting
-
-This Working Group aims to operate by consensus.
-Issues needing a group decision will be discussed at the recurring meeting.
-When consensus cannot be reached, decisions should in most cases be made by resource commitment: e.g. if a member wants to dedicate their resources to the completion of a goal, then they may do so.
-In cases where consensus cannot be reached and resource commitment is insufficient or inappropriate, simple majority voting is used, with each member having one vote.
-
-
-## Modifying this governance document
+### Modifying this governance document
 
 Changes to this document will be made via Pull Request.
 The PR will be merged on WG approval.
