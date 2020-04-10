@@ -10,6 +10,7 @@ This document defines the scope and governance of the ROS 2 Tooling Working Grou
 This Working Group owns and maintains the following Subprojects.
 Its meetings and membership are largely focused on the direction, design, and work on the projects.
 
+
 ### Subproject list
 
 The following subprojects are owned by Tooling WG:
@@ -21,6 +22,7 @@ The following subprojects are owned by Tooling WG:
   * Description: A tool to record and play back ROS2 communications
   * Repositories
     * https://github.com/ros2/rosbag2
+    * https://github.com/ros2/rosbag2_bag_v2
 * System Metrics Collector
   * Description: a set of composable nodes that collect a set of host system metrics and publish them to the ROS system for analysis
   * Repositories
@@ -60,11 +62,13 @@ These criteria are:
 * Issues are responded to promptly
 * Releases go out regularly when bugfixes or new features are introduced
 
+
 ### Subproject changes
 
 Modify the relevant list item in the "Subprojects" section and open a Pull Request to this repository, following instructions in the Pull Request Template to populate the text of the PR.
 
 PR will be merged on unanimous approval from Approvers.
+
 
 ### Deprecating subprojects
 
@@ -87,6 +91,22 @@ If the repositories of the subproject are in the `ros-tooling` organization, the
   * After the meeting we will post:
     * Video recording
     * Notes from the meeting
+
+
+### Communication Channels
+
+The WG hosts a Matrix channel for text based chat at https://matrix.to/#/!IQcVAivBdnSuEniBZa:matrix.org?via=matrix.org
+
+Some users use the Riot clients to connect to this chat room.
+
+
+### Backlog Management
+
+The WG backlog is tracked on a [ZenHub](https://www.zenhub.com/) board.
+ZenHub connects to GitHub to add extra metadata to issues for more detailed project management than GitHub projects provide.
+* The ZenHub board can be viewed in GitHub by [installing its browser extension](https://www.zenhub.com/extension) - [Board on GitHub](https://github.com/ros-tooling/community#zenhub).
+* Members who do not wish to install a browser extension can [view the board directly on ZenHub](https://app.zenhub.com/workspaces/ros-2-tooling-working-group-5dc4f36af1b75b0001fb7c8d/board)
+
 
 ### Membership, Roles and Organization Management
 
