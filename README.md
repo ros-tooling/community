@@ -23,6 +23,9 @@ The following subprojects are owned by Tooling WG:
   * Repositories
     * https://github.com/ros2/rosbag2
     * https://github.com/ros2/rosbag2_bag_v2
+* rcpputils
+  * Description: A C++ library consisting of macros, functions, and data structures intended for use in ROS2 packages.
+  * Repositories: https://github.com/ros2/rcpputils
 * System Metrics Collector
   * Description: a set of composable nodes that collect a set of host system metrics and publish them to the ROS system for analysis
   * Repositories
