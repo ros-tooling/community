@@ -88,11 +88,11 @@ def setup_repo(org, repo):
 
 
 def main():
-    repos = list_repos('ros-tooling')
+    repos = list_repos(ORGANIZATION)
     for repo_object in repos:
         repo_name = repo_object['name']
         print('Setting up {}'.format(repo_name))
-        setup_repo('ros-tooling', repo_name)
+        setup_repo(ORGANIZATION, repo_name)
 
 
 if __name__ == '__main__':
