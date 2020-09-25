@@ -4,6 +4,8 @@ The Tooling Working Group's mission is to provide ROS 2 users with simple, robus
 
 This document defines the scope and governance of the ROS 2 Tooling Working Group.
 
+NOTE: The `scripts` directory in this repository contains scripts used to manage this organization and keep it up to date with any settings/permissions laid out in this document.
+
 
 ## Subprojects
 
