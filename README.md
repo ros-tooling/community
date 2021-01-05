@@ -42,6 +42,10 @@ The following subprojects are owned by Tooling WG:
   * Description: A ROS 2 `launch` extension that starts Nodes in their own containers
   * Repositories
     * https://github.com/ros-tooling/launch_ros_sandbox
+* ros-github-scripts
+  * Description: Collection of scripts for easier management of ROS projects on GitHub - including generating reports of contributions for TSC members, and starting Jenkins ci_launcher jobs for pull requests.
+  * Repositories
+    * https://github.com/ros-tooling/ros-github-scripts
 
 
 ### Adding new subprojects
