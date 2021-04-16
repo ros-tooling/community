@@ -46,6 +46,10 @@ The following subprojects are owned by Tooling WG:
   * Description: Collection of scripts for easier management of ROS projects on GitHub - including generating reports of contributions for TSC members, and starting Jenkins ci_launcher jobs for pull requests.
   * Repositories
     * https://github.com/ros-tooling/ros-github-scripts
+* `topic_tools`
+  * Description: Package containing tools for manipulating ROS topics - such as multiplexing, relaying, and throttling
+  * Repositories:
+    * https://github.com/ros-tooling/topic_tools 
 
 
 ### Adding new subprojects
