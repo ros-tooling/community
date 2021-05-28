@@ -29,10 +29,6 @@ The following subprojects are owned by Tooling WG:
   * Repositories
     * https://github.com/ros2/rosbag2
     * https://github.com/ros2/rosbag2_bag_v2
-* System Metrics Collector
-  * Description: a set of composable nodes that collect a set of host system metrics and publish them to the ROS system for analysis
-  * Repositories
-    * https://github.com/ros-tooling/system_metrics_collector.git
 * Github CI Actions
   * Description: A set of Github Actions for ROS/ROS2 packages and tooling that automatically test Pull Requests
   * Repositories
