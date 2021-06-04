@@ -48,7 +48,11 @@ The following subprojects are owned by Tooling WG:
 * `topic_tools`
   * Description: Package containing tools for manipulating ROS topics - such as multiplexing, relaying, and throttling
   * Repositories:
-    * https://github.com/ros-tooling/topic_tools 
+    * https://github.com/ros-tooling/topic_tools
+* `keyboard_handler`
+  * Description: A lightweight cross-platform keyboard handling library with ROS integration
+  * Repositories:
+    * https://github.com/ros-tooling/keyboard_handler    
 
 
 ### Adding new subprojects
