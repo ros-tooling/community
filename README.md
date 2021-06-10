@@ -19,7 +19,18 @@ The following subprojects are owned by Tooling WG:
 * Tooling WG Management Infrastructure
   * Description: Set of repositories used to manage the working group itself, not a released product
   * Repositories
+    * https://github.com/ros-tooling/community
+      * This repo - contains governance model for the WG 
+    * https://github.com/ros-tooling/ros-tooling.github.io
+      * GitHub Pages source for ros-tooling.github.io
+    * https://github.com/ros-tooling/.github
+      * Subset of common configuration files that GitHub will automatically apply to repositories
     * https://github.com/ros-tooling/repo-configs
+      * Common configuration that is synchronized to managed repositories
+    * https://github.com/ros-tooling/roadmap 
+      * Issue tracker for organization-level tickets that do not fit in a subproject repository
+    * https://github.com/ros-tooling/design
+      * WG-level design documents that don't belong in a single subproject repository
 * ros-cross-compile
   * Description: A tool to build ROS/ROS2 workspaces for various target platforms.
   * Repositories
