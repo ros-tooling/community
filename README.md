@@ -63,7 +63,12 @@ The following subprojects are owned by Tooling WG:
 * `keyboard_handler`
   * Description: A lightweight cross-platform keyboard handling library with ROS integration
   * Repositories:
-    * https://github.com/ros-tooling/keyboard_handler    
+    * https://github.com/ros-tooling/keyboard_handler  
+* `libstatistics_collector`
+  * Description: Package containing utilities for aggregating statistics in a common way. Used by rclcpp topic statistics and potentially others
+  * Repositories:
+    * https://github.com/ros-tooling/libstatistics_collector  
+    * https://github.com/ros-tooling/libstatistics_collector-release 
 
 
 ### Adding new subprojects
