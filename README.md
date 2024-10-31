@@ -124,9 +124,7 @@ If the repositories of the subproject are in the `ros-tooling` organization, the
 
 ### Communication Channels
 
-The WG hosts a Matrix channel for text based chat at https://matrix.to/#/!IQcVAivBdnSuEniBZa:matrix.org?via=matrix.org
-
-Some users use the Riot clients to connect to this chat room.
+The WG uses the `wg-tooling` tag on ROS Discourse: https://discourse.ros.org/tag/wg-tooling.
 
 
 ### Backlog Management
